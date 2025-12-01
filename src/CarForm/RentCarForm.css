@@ -1,0 +1,45 @@
+.rent-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f4f6fa;
+  border-radius: 12px;
+  font-family: Arial;
+}
+
+.rent-form input,
+.rent-form textarea,
+.rent-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.empty {
+  background-color: #fff3cd;
+  border-color: orange;
+}
+
+.error {
+  background-color: #f8d7da;
+  border-color: red;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #4a6cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.rent-form .errorMsg {
+  color: #a94442;
+  font-size: 13px;
+  min-height: 18px; 
+  margin-top: 6px;
+}
